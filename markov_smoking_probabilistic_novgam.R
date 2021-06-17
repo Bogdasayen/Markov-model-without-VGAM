@@ -1,11 +1,10 @@
 # Smoking Cessation Markov model
+# Edited to use rbeta() instead of rdiric() to avoid dependency on VGAM
 # Howard Thom
 
 # Load necessary libraries
 # If not installed use the following line first
-# install.packages("VGAM")
 # install.packages("BCEA)
-library(VGAM)
 library(BCEA)
 
 # Set a random number seed so results are reproducible
